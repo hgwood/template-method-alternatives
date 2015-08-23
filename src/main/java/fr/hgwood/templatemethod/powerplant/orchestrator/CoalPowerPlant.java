@@ -13,4 +13,5 @@ public class CoalPowerPlant implements PowerPlant {
     public void lockdown() {
         // this is CHINAAAAAAA!!!
     }
+
 }
