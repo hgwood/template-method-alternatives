@@ -1,4 +1,4 @@
-package fr.hgwood.templatemethod.decorator.compound;
+package fr.hgwood.templatemethod.processor;
 
 public interface Processor {
     void process(Object o);
