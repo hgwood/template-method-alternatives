@@ -1,4 +1,4 @@
-package com.zenika.debates.templatemethod.powerplant.templatemethod;
+package fr.hgwood.templatemethod.powerplant.templatemethod;
 
 public class NuclearPowerPlant extends PowerPlant {
 

@@ -1,4 +1,4 @@
-package com.zenika.debates.templatemethod.powerplant.templatemethod;
+package fr.hgwood.templatemethod.powerplant.templatemethod;
 
 import org.junit.Test;
 import org.mockito.Mockito;

@@ -1,4 +1,4 @@
-package com.zenika.debates.templatemethod.powerplant.orchestrator;
+package fr.hgwood.templatemethod.powerplant.orchestrator;
 
 public interface PowerPlant {
     boolean isSecure();
