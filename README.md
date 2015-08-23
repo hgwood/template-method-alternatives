@@ -1,6 +1,6 @@
 # Template Method vs The World
 
-What alternatives are there to the  [Template Method Pattern](https://en.wikipedia.org/wiki/Template_method_pattern).
+What alternatives are there to the  [Template Method Pattern](https://en.wikipedia.org/wiki/Template_method_pattern)?
 
 ## Power Plant Example
 
@@ -10,6 +10,6 @@ A hierarchy of classes where some methods are overriden by descendants while one
 
 ### Proposed Alternative
 
-The abstract root class is refactored to an interface with only the method that are meant to be overriden. A new class is created, the orchestrator, in which a method a created to contain the fixed logic. This method take an instance of the root interface as a parameter to act on.
+The abstract root class is refactored to an interface with only the method that are meant to be overriden. A new class is created, the orchestrator, in which a method is created to contain the fixed logic. This method takes an instance of the root interface as a parameter to act on.
 
-Derivied Principle: If a piece of logic is indenpendant from its location in a class hierarchy, then it could live outside the hierarchy.
+Derived Principle: if a piece of logic is indenpendant from its location in a class hierarchy, then it could live outside the hierarchy.
